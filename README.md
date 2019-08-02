@@ -11,6 +11,20 @@ classifiers on one specific emotion. These are then combined into a decision for
 used to classify the test data. The decision forests are then stored [here](forests/) after
 they have been generated and can therefore easily be loaded again.
 
+## Structure
+
+```
+.
+├── README.md
+├── forests
+├── requirements.txt
+├── src
+├── trees
+└── visual
+```
+
+`forests` contains the directory with the pre-trained forests. `src` contains the source code, `trees` contains the individual trees for each emotion. `visual` contains the visualisations of the learnt trees.
+
 ## Testing
 
 To test the trees, the trained trees should first be loaded from the disk or trained on the data.
@@ -18,12 +32,12 @@ To test the trees, the trained trees should first be loaded from the disk or tra
 The trained decision forests should be stored in the folder called `forests`. If that directory is
 not present, the trees will have to be retrained by following the guide on how to do that in the training section of the README.
 
-The `loadTrees` function in [test.py](test.py) can be used to load a tree from the `forests`
+The `loadTrees` function in [test.py](src/test.py) can be used to load a tree from the `forests`
 directory. This function first takes in the data type, which can be either 'noisy' or 'clean'. As a
 second argument it takes in the split from the cross validation that should be loaded, which can be
 a number from 0-9. If the split is of type None, or not present, then the full decision forest is returned.
 
-Once the forest is loaded, it can be tested by using the `testTrees` function in [test.py](test.py).
+Once the forest is loaded, it can be tested by using the `testTrees` function in [test.py](src/test.py).
 This function takes in the forest that was loaded earlier and the test data that the forest should be
 tested on. It then returns the predicted labels to the input data.
 

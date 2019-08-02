@@ -13,7 +13,7 @@ def main():
     # build_data_sets()
 
     # train the trees and run analysis
-    # Options: directories=["clean", "noisy"] 
+    # Options: directories=["clean", "noisy"]
     #          splits=10 # number of splits in the data directory
     #          final_forests=True # create final trees
     #          load=True # If trees are already created, load them instead of training new trees

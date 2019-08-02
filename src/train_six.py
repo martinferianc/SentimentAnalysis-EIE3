@@ -7,7 +7,7 @@ from training import get_accuracy, get_best_tree_height
 
 def main():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    data_dir = "../../data/cw1/"
+    data_dir = "data/cw1/"
     test_accuracies = {}
     validation_accuracies = {}
     if not os.path.isdir("trees"):

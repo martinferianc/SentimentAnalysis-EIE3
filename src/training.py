@@ -98,7 +98,7 @@ def load_forest(directory, split):
 # Mode fore the testing can be set by changing mode to "var" or "level"
 def train_trees(directories=["clean", "noisy"], splits=10, final_forests=True,
                 load=True, n_classes=6, forest_mode="var", save=True):
-    data_dir = os.path.join("..", "..", "data", "cw1")
+    data_dir = os.path.join("data", "cw1")
     print("Loading base data from directory: {}\n".format(data_dir))
 
     validation_accuracies = {}

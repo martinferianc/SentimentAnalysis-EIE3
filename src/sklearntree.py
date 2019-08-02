@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import classification_report
 
-data_dir = os.path.join("..", "..", "data", "cw1")
+data_dir = os.path.join("data", "cw1")
 train_data = np.load(os.path.join(data_dir, "processed", "noisy", "{}training.npy".format(0)))
 test_data = np.load(os.path.join(data_dir, "processed", "noisy", "{}test.npy".format(0)))
 

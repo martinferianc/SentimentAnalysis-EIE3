@@ -3,7 +3,7 @@ import numpy as np
 import copy
 import os
 
-BASE_DIR = "../../data/cw1/"
+BASE_DIR = "data/cw1/"
 
 # Load the data and convert it into numpy matrices
 
@@ -40,7 +40,7 @@ def n_fold(data_in, target_dir, n=10, validation=0.1, test=0.1):
         vsplit_end = (i*vseg + vseg)  % len(r_data)
         validation_data = r_data[vsplit_start:vsplit_end, :]
         training_data = np.vstack((r_data[0:vsplit_start, :], r_data[vsplit_end:, :]))
-        
+
         #r_data[vseg:, :]
         print("Test data is {0}.".format(test_data.shape))
         print("Validation data is {0}.".format(validation_data.shape))
