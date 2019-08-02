@@ -1,0 +1,186 @@
+// Decision Tree
+digraph {
+	0 [label=3 fillcolor=red style=filled]
+	0 -> 1 [label=0]
+	1 [label=11]
+	1 -> 2 [label=0]
+	2 [label=19]
+	2 -> 3 [label=0]
+	3 [label=8]
+	3 -> 4 [label=0]
+	4 [label=1]
+	4 -> 5 [label=0]
+	5 [label="label: 6
+var: 2.403
+level: 5" fillcolor=green style=filled]
+	4 -> 6 [label=1]
+	6 [label="label: 6
+var: 0.961
+level: 5" fillcolor=green style=filled]
+	3 -> 7 [label=1]
+	7 [label=0]
+	7 -> 8 [label=0]
+	8 [label="label: 2
+var: 1.370
+level: 5" fillcolor=green style=filled]
+	7 -> 9 [label=1]
+	9 [label="label: 6
+var: 2.222
+level: 5" fillcolor=green style=filled]
+	2 -> 10 [label=1]
+	10 [label=1]
+	10 -> 11 [label=0]
+	11 [label=5]
+	11 -> 12 [label=0]
+	12 [label="label: 3
+var: 0.298
+level: 5" fillcolor=green style=filled]
+	11 -> 13 [label=1]
+	13 [label="label: 3
+var: 0.760
+level: 5" fillcolor=green style=filled]
+	10 -> 14 [label=1]
+	14 [label=26]
+	14 -> 15 [label=0]
+	15 [label="label: 3
+var: 1.380
+level: 5" fillcolor=green style=filled]
+	14 -> 16 [label=1]
+	16 [label="label: 6
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	1 -> 17 [label=1]
+	17 [label=5]
+	17 -> 18 [label=0]
+	18 [label=1]
+	18 -> 19 [label=0]
+	19 [label=20]
+	19 -> 20 [label=0]
+	20 [label="label: 4
+var: 0.718
+level: 5" fillcolor=green style=filled]
+	19 -> 21 [label=1]
+	21 [label="label: 6
+var: 1.360
+level: 5" fillcolor=green style=filled]
+	18 -> 22 [label=1]
+	22 [label=26]
+	22 -> 23 [label=0]
+	23 [label="label: 4
+var: 1.694
+level: 5" fillcolor=green style=filled]
+	22 -> 24 [label=1]
+	24 [label="label: 6
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	17 -> 25 [label=1]
+	25 [label=1]
+	25 -> 26 [label=0]
+	26 [label="label: 4
+var: 0.000
+level: 4" fillcolor=green style=filled]
+	25 -> 27 [label=1]
+	27 [label=6]
+	27 -> 28 [label=0]
+	28 [label="label: 4
+var: 1.250
+level: 5" fillcolor=green style=filled]
+	27 -> 29 [label=1]
+	29 [label="label: 4
+var: 0.449
+level: 5" fillcolor=green style=filled]
+	0 -> 30 [label=1]
+	30 [label=8]
+	30 -> 31 [label=0]
+	31 [label=19]
+	31 -> 32 [label=0]
+	32 [label=0]
+	32 -> 33 [label=0]
+	33 [label=11]
+	33 -> 34 [label=0]
+	34 [label="label: 1
+var: 2.938
+level: 5" fillcolor=green style=filled]
+	33 -> 35 [label=1]
+	35 [label="label: 4
+var: 1.820
+level: 5" fillcolor=green style=filled]
+	32 -> 36 [label=1]
+	36 [label=24]
+	36 -> 37 [label=0]
+	37 [label="label: 5
+var: 1.445
+level: 5" fillcolor=green style=filled]
+	36 -> 38 [label=1]
+	38 [label="label: 6
+var: 2.147
+level: 5" fillcolor=green style=filled]
+	31 -> 39 [label=1]
+	39 [label=14]
+	39 -> 40 [label=0]
+	40 [label=5]
+	40 -> 41 [label=0]
+	41 [label="label: 3
+var: 1.034
+level: 5" fillcolor=green style=filled]
+	40 -> 42 [label=1]
+	42 [label="label: 3
+var: 1.149
+level: 5" fillcolor=green style=filled]
+	39 -> 43 [label=1]
+	43 [label=6]
+	43 -> 44 [label=0]
+	44 [label="label: 5
+var: 1.025
+level: 5" fillcolor=green style=filled]
+	43 -> 45 [label=1]
+	45 [label="label: 3
+var: 1.408
+level: 5" fillcolor=green style=filled]
+	30 -> 46 [label=1]
+	46 [label=9]
+	46 -> 47 [label=0]
+	47 [label=33]
+	47 -> 48 [label=0]
+	48 [label=19]
+	48 -> 49 [label=0]
+	49 [label="label: 2
+var: 2.332
+level: 5" fillcolor=green style=filled]
+	48 -> 50 [label=1]
+	50 [label="label: 3
+var: 0.543
+level: 5" fillcolor=green style=filled]
+	47 -> 51 [label=1]
+	51 [label=17]
+	51 -> 52 [label=0]
+	52 [label="label: 4
+var: 1.000
+level: 5" fillcolor=green style=filled]
+	51 -> 53 [label=1]
+	53 [label="label: 1
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	46 -> 54 [label=1]
+	54 [label=19]
+	54 -> 55 [label=0]
+	55 [label=34]
+	55 -> 56 [label=0]
+	56 [label="label: 2
+var: 0.053
+level: 5" fillcolor=green style=filled]
+	55 -> 57 [label=1]
+	57 [label="label: 2
+var: 0.876
+level: 5" fillcolor=green style=filled]
+	54 -> 58 [label=1]
+	58 [label=14]
+	58 -> 59 [label=0]
+	59 [label="label: 2
+var: 0.359
+level: 5" fillcolor=green style=filled]
+	58 -> 60 [label=1]
+	60 [label="label: 5
+var: 0.000
+level: 5" fillcolor=green style=filled]
+}

@@ -1,0 +1,504 @@
+// Decision Tree
+digraph {
+	0 [label=1 fillcolor=red style=filled]
+	0 -> 1 [label=0]
+	1 [label=5]
+	1 -> 2 [label=0]
+	2 [label=8]
+	2 -> 3 [label=0]
+	3 [label=19]
+	3 -> 4 [label=0]
+	4 [label=23]
+	4 -> 5 [label=0]
+	5 [label=16]
+	5 -> 6 [label=0]
+	6 [label=11]
+	6 -> 7 [label=0]
+	7 [label="label: 5
+var: 1.958
+level: 7" fillcolor=green style=filled]
+	6 -> 8 [label=1]
+	8 [label="label: 4
+var: 0.360
+level: 7" fillcolor=green style=filled]
+	5 -> 9 [label=1]
+	9 [label=6]
+	9 -> 10 [label=0]
+	10 [label="label: 5
+var: 1.614
+level: 7" fillcolor=green style=filled]
+	9 -> 11 [label=1]
+	11 [label="label: 1
+var: 2.862
+level: 7" fillcolor=green style=filled]
+	4 -> 12 [label=1]
+	12 [label=39]
+	12 -> 13 [label=0]
+	13 [label=3]
+	13 -> 14 [label=0]
+	14 [label="label: 1
+var: 1.840
+level: 7" fillcolor=green style=filled]
+	13 -> 15 [label=1]
+	15 [label="label: 1
+var: 0.026
+level: 7" fillcolor=green style=filled]
+	12 -> 16 [label=1]
+	16 [label=28]
+	16 -> 17 [label=0]
+	17 [label="label: 5
+var: 2.160
+level: 7" fillcolor=green style=filled]
+	16 -> 18 [label=1]
+	18 [label="label: 1
+var: 4.000
+level: 7" fillcolor=green style=filled]
+	3 -> 19 [label=1]
+	19 [label=3]
+	19 -> 20 [label=0]
+	20 [label=4]
+	20 -> 21 [label=0]
+	21 [label=30]
+	21 -> 22 [label=0]
+	22 [label="label: 2
+var: 0.264
+level: 7" fillcolor=green style=filled]
+	21 -> 23 [label=1]
+	23 [label="label: 5
+var: 3.040
+level: 7" fillcolor=green style=filled]
+	20 -> 24 [label=1]
+	24 [label=16]
+	24 -> 25 [label=0]
+	25 [label="label: 6
+var: 1.440
+level: 7" fillcolor=green style=filled]
+	24 -> 26 [label=1]
+	26 [label="label: 3
+var: 0.889
+level: 7" fillcolor=green style=filled]
+	19 -> 27 [label=1]
+	27 [label=44]
+	27 -> 28 [label=0]
+	28 [label=15]
+	28 -> 29 [label=0]
+	29 [label="label: 3
+var: 0.556
+level: 7" fillcolor=green style=filled]
+	28 -> 30 [label=1]
+	30 [label="label: 1
+var: 0.816
+level: 7" fillcolor=green style=filled]
+	27 -> 31 [label=1]
+	31 [label=30]
+	31 -> 32 [label=0]
+	32 [label="label: 1
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	31 -> 33 [label=1]
+	33 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	2 -> 34 [label=1]
+	34 [label=3]
+	34 -> 35 [label=0]
+	35 [label=24]
+	35 -> 36 [label=0]
+	36 [label=22]
+	36 -> 37 [label=0]
+	37 [label=38]
+	37 -> 38 [label=0]
+	38 [label="label: 2
+var: 0.054
+level: 7" fillcolor=green style=filled]
+	37 -> 39 [label=1]
+	39 [label="label: 2
+var: 0.139
+level: 7" fillcolor=green style=filled]
+	36 -> 40 [label=1]
+	40 [label=26]
+	40 -> 41 [label=0]
+	41 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	40 -> 42 [label=1]
+	42 [label="label: 2
+var: 2.250
+level: 7" fillcolor=green style=filled]
+	35 -> 43 [label=1]
+	43 [label=11]
+	43 -> 44 [label=0]
+	44 [label=26]
+	44 -> 45 [label=0]
+	45 [label="label: 2
+var: 0.639
+level: 7" fillcolor=green style=filled]
+	44 -> 46 [label=1]
+	46 [label="label: 6
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	43 -> 47 [label=1]
+	47 [label=21]
+	47 -> 48 [label=0]
+	48 [label="label: 4
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	47 -> 49 [label=1]
+	49 [label="label: 6
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	34 -> 50 [label=1]
+	50 [label=16]
+	50 -> 51 [label=0]
+	51 [label=9]
+	51 -> 52 [label=0]
+	52 [label="label: 3
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	51 -> 53 [label=1]
+	53 [label=15]
+	53 -> 54 [label=0]
+	54 [label="label: 2
+var: 0.250
+level: 7" fillcolor=green style=filled]
+	53 -> 55 [label=1]
+	55 [label="label: 1
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	50 -> 56 [label=1]
+	56 [label=0]
+	56 -> 57 [label=0]
+	57 [label=30]
+	57 -> 58 [label=0]
+	58 [label="label: 1
+var: 0.250
+level: 7" fillcolor=green style=filled]
+	57 -> 59 [label=1]
+	59 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	56 -> 60 [label=1]
+	60 [label=37]
+	60 -> 61 [label=0]
+	61 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	60 -> 62 [label=1]
+	62 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	1 -> 63 [label=1]
+	63 [label=11]
+	63 -> 64 [label=0]
+	64 [label=16]
+	64 -> 65 [label=0]
+	65 [label=2]
+	65 -> 66 [label=0]
+	66 [label=4]
+	66 -> 67 [label=0]
+	67 [label=18]
+	67 -> 68 [label=0]
+	68 [label="label: 4
+var: 0.793
+level: 7" fillcolor=green style=filled]
+	67 -> 69 [label=1]
+	69 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	66 -> 70 [label=1]
+	70 [label=43]
+	70 -> 71 [label=0]
+	71 [label="label: 3
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	70 -> 72 [label=1]
+	72 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	65 -> 73 [label=1]
+	73 [label="label: 5
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	64 -> 74 [label=1]
+	74 [label=23]
+	74 -> 75 [label=0]
+	75 [label=6]
+	75 -> 76 [label=0]
+	76 [label=14]
+	76 -> 77 [label=0]
+	77 [label="label: 2
+var: 1.389
+level: 7" fillcolor=green style=filled]
+	76 -> 78 [label=1]
+	78 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	75 -> 79 [label=1]
+	79 [label=34]
+	79 -> 80 [label=0]
+	80 [label="label: 1
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	79 -> 81 [label=1]
+	81 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	74 -> 82 [label=1]
+	82 [label="label: 1
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	63 -> 83 [label=1]
+	83 [label=24]
+	83 -> 84 [label=0]
+	84 [label=3]
+	84 -> 85 [label=0]
+	85 [label=40]
+	85 -> 86 [label=0]
+	86 [label="label: 4
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	85 -> 87 [label=1]
+	87 [label=44]
+	87 -> 88 [label=0]
+	88 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	87 -> 89 [label=1]
+	89 [label="label: 4
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	84 -> 90 [label=1]
+	90 [label=23]
+	90 -> 91 [label=0]
+	91 [label=18]
+	91 -> 92 [label=0]
+	92 [label="label: 4
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	91 -> 93 [label=1]
+	93 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	90 -> 94 [label=1]
+	94 [label="label: 1
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	83 -> 95 [label=1]
+	95 [label="label: 4
+var: 0.000
+level: 4" fillcolor=green style=filled]
+	0 -> 96 [label=1]
+	96 [label=19]
+	96 -> 97 [label=0]
+	97 [label=24]
+	97 -> 98 [label=0]
+	98 [label=16]
+	98 -> 99 [label=0]
+	99 [label=0]
+	99 -> 100 [label=0]
+	100 [label=44]
+	100 -> 101 [label=0]
+	101 [label="label: 4
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	100 -> 102 [label=1]
+	102 [label="label: 5
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	99 -> 103 [label=1]
+	103 [label=3]
+	103 -> 104 [label=0]
+	104 [label="label: 6
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	103 -> 105 [label=1]
+	105 [label=40]
+	105 -> 106 [label=0]
+	106 [label="label: 1
+var: 6.250
+level: 7" fillcolor=green style=filled]
+	105 -> 107 [label=1]
+	107 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	98 -> 108 [label=1]
+	108 [label=8]
+	108 -> 109 [label=0]
+	109 [label=23]
+	109 -> 110 [label=0]
+	110 [label=26]
+	110 -> 111 [label=0]
+	111 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	110 -> 112 [label=1]
+	112 [label="label: 1
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	109 -> 113 [label=1]
+	113 [label=5]
+	113 -> 114 [label=0]
+	114 [label="label: 1
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	113 -> 115 [label=1]
+	115 [label="label: 4
+var: 0.250
+level: 7" fillcolor=green style=filled]
+	108 -> 116 [label=1]
+	116 [label=44]
+	116 -> 117 [label=0]
+	117 [label=20]
+	117 -> 118 [label=0]
+	118 [label="label: 2
+var: 0.083
+level: 7" fillcolor=green style=filled]
+	117 -> 119 [label=1]
+	119 [label="label: 1
+var: 6.250
+level: 7" fillcolor=green style=filled]
+	116 -> 120 [label=1]
+	120 [label=39]
+	120 -> 121 [label=0]
+	121 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	120 -> 122 [label=1]
+	122 [label="label: 2
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	97 -> 123 [label=1]
+	123 [label=26]
+	123 -> 124 [label=0]
+	124 [label=0]
+	124 -> 125 [label=0]
+	125 [label=4]
+	125 -> 126 [label=0]
+	126 [label=15]
+	126 -> 127 [label=0]
+	127 [label="label: 4
+var: 0.331
+level: 7" fillcolor=green style=filled]
+	126 -> 128 [label=1]
+	128 [label="label: 2
+var: 0.889
+level: 7" fillcolor=green style=filled]
+	125 -> 129 [label=1]
+	129 [label="label: 6
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	124 -> 130 [label=1]
+	130 [label=7]
+	130 -> 131 [label=0]
+	131 [label=25]
+	131 -> 132 [label=0]
+	132 [label="label: 6
+var: 2.122
+level: 7" fillcolor=green style=filled]
+	131 -> 133 [label=1]
+	133 [label="label: 6
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	130 -> 134 [label=1]
+	134 [label=42]
+	134 -> 135 [label=0]
+	135 [label="label: 1
+var: 0.250
+level: 7" fillcolor=green style=filled]
+	134 -> 136 [label=1]
+	136 [label="label: 5
+var: 0.250
+level: 7" fillcolor=green style=filled]
+	123 -> 137 [label=1]
+	137 [label=3]
+	137 -> 138 [label=0]
+	138 [label="label: 6
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	137 -> 139 [label=1]
+	139 [label=21]
+	139 -> 140 [label=0]
+	140 [label="label: 6
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	139 -> 141 [label=1]
+	141 [label="label: 5
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	96 -> 142 [label=1]
+	142 [label=26]
+	142 -> 143 [label=0]
+	143 [label=44]
+	143 -> 144 [label=0]
+	144 [label=18]
+	144 -> 145 [label=0]
+	145 [label="label: 3
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	144 -> 146 [label=1]
+	146 [label=24]
+	146 -> 147 [label=0]
+	147 [label=42]
+	147 -> 148 [label=0]
+	148 [label="label: 4
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	147 -> 149 [label=1]
+	149 [label="label: 5
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	146 -> 150 [label=1]
+	150 [label="label: 3
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	143 -> 151 [label=1]
+	151 [label=6]
+	151 -> 152 [label=0]
+	152 [label=25]
+	152 -> 153 [label=0]
+	153 [label="label: 3
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	152 -> 154 [label=1]
+	154 [label=39]
+	154 -> 155 [label=0]
+	155 [label="label: 6
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	154 -> 156 [label=1]
+	156 [label="label: 3
+var: 0.000
+level: 7" fillcolor=green style=filled]
+	151 -> 157 [label=1]
+	157 [label="label: 2
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	142 -> 158 [label=1]
+	158 [label=37]
+	158 -> 159 [label=0]
+	159 [label=41]
+	159 -> 160 [label=0]
+	160 [label=7]
+	160 -> 161 [label=0]
+	161 [label=3]
+	161 -> 162 [label=0]
+	162 [label="label: 6
+var: 2.204
+level: 7" fillcolor=green style=filled]
+	161 -> 163 [label=1]
+	163 [label="label: 3
+var: 1.250
+level: 7" fillcolor=green style=filled]
+	160 -> 164 [label=1]
+	164 [label="label: 6
+var: 0.000
+level: 6" fillcolor=green style=filled]
+	159 -> 165 [label=1]
+	165 [label="label: 6
+var: 0.000
+level: 5" fillcolor=green style=filled]
+	158 -> 166 [label=1]
+	166 [label="label: 2
+var: 0.000
+level: 4" fillcolor=green style=filled]
+}
